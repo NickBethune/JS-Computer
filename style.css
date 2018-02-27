@@ -1,0 +1,72 @@
+body{
+  background: #444;
+  font-family: sans-serif;
+}
+
+button{
+  width: 33%;
+  float: left;
+  font-size: 60px;
+  height: 130px;
+  border:0;
+  margin: 5px 1px 0px 1px;
+}
+
+#wrap{
+
+  margin: auto;
+  max-width: 600px;
+}
+#numbers{
+  margin: auto;
+  padding: 0;
+}
+.num, #submit, .num:focus{
+  overflow: hidden;
+  text-align: center;
+}
+#zero{
+  width: 66%;
+  margin-right: 3px;
+  clear: both;
+}
+
+#operators{
+  width: 100%;
+  float: left;
+  margin: auto;
+}
+.op{
+
+  padding: 0;
+  font-size: 60px;
+  width: 24%;
+  margin-top:10px;
+  height: 140px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  margin-left: 1px;
+}
+#divide{
+  margin-right: 0;
+  margin-left: 1px;
+}
+#eq_container{
+  min-height: 130px;
+  float: left;
+  width: 100%;
+  background: #BB5555;
+  clear: both;
+  margin: auto;
+  overflow: hidden;
+
+}
+#equation{
+  padding:0;
+  margin-top:15px;
+  clear: both;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
